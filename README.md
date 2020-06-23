@@ -1,6 +1,10 @@
 # obs-pi-tally
 OBS Tally Lights using Raspberry Pi
 
+In our use case we wanted lights attached to a specific camera that might appear in multiple scenes. To accomplish this, this script tracks a OBS source by name even if it appears in multiple scenes. 
+
+If the source is live the tally light is red. If the source is in preview the light is yellow. And if the source is not in use in either location the light is green.
+
 ## Instructions
 
 Install the required dependencies on the Raspberry Pi:
