@@ -1,7 +1,7 @@
 # obs-pi-tally
 OBS Tally Lights using Raspberry Pi
 
-![TallyLight](https://i.imgur.com/TWroxMK.gifv)
+[See them in action](https://imgur.com/TWroxMK)
 
 In our use case we wanted lights attached to a specific camera that might appear in multiple scenes. To accomplish this, this script tracks a OBS source by name even if it appears in multiple scenes. 
 
