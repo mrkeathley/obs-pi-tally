@@ -11,7 +11,7 @@ If the source is live the tally light is red. If the source is in preview the li
 
 Install the required dependencies on the Raspberry Pi:
 
-`apt-get install python-pip3`
+`apt-get install python3-pip`
 
 `pip3 install RPi.GPIO`
 

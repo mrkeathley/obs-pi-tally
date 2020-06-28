@@ -21,6 +21,7 @@ class OBSTally:
 
 		config = configparser.ConfigParser()
 		config.read('config.ini')
+		print(config['OBS']['Source'])
 
 		self.source = config['OBS']['Source']
 		self.address = config['OBS']['Address']
